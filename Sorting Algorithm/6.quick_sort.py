@@ -17,7 +17,7 @@ def quick_sort(arr):
     return quick_sort(left_arr) + [pivot] + quick_sort(right_arr)
 
 if __name__ == "__main__":
-    arr = generate_random_array(14)
+    arr = generate_random_array(400)
     print(arr)
     arr1 = quick_sort(arr)
     print(arr1)
