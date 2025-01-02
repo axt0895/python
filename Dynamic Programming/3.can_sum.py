@@ -1,5 +1,5 @@
 def canSum(target, arr, memo = {}):
-    if target in memo: return True
+    if target in memo: return memo[target]
     if target < 0: return False
     if target == 0: return True
     
