@@ -36,7 +36,7 @@ def merge_sort(arr):
 
 
 if __name__ == "__main__":
-    arr = generate_random_array(50000)
+    arr = generate_random_array(500)
     print(arr)
     arr1 = merge_sort(arr)
     print(arr1)
